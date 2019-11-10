@@ -33,6 +33,10 @@ def train_benchmark():
         pickle.dump(testset, f)
 
 
+if __name__=='__main__':
+    train_benchmark()
+
+
 
 
 
